@@ -1,5 +1,5 @@
 module Types
   class CompanyType < Types::BaseObject
-    field :id, ID, null: true
+    field :id, ID, null: false
   end
 end
